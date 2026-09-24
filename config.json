@@ -1,0 +1,13 @@
+{
+  "intervalo_verificacao_seg": 90,
+  "jitter_max_seg": 45,
+  "aguardar_apos_login_seg": 120,
+  "modo_simulacao": false,
+  "apagar_tudo_da_lixeira": true,
+  "apagar_pastas_tambem": true,
+  "uma_vez_por_conta": true,
+  "contas_ignoradas": [
+    "messon1220@gmail.com",
+    "jamesson.22151842@aluno.educ.rec.br"
+  ]
+}

@@ -1,0 +1,35 @@
+GHOST WIPER - GUIA RAPIDO
+=========================
+
+INSTALAR (uma vez por PC):
+    1. Duplo clique em 1_INSTALAR.bat
+    2. Pode tirar o pendrive depois (tudo foi copiado pro PC)
+
+TESTAR:
+    3_TESTAR.bat  -> roda visivel (com modo_simulacao=true,
+                     nao apaga nada, so mostra no log)
+
+LIGAR DE VERDADE (apagar):
+    Abra o arquivo config.json (no pendrive E em
+    %LOCALAPPDATA%\SysCacheSync\app\) e troque:
+        "modo_simulacao": true   ->   "modo_simulacao": false
+
+    DICA: coloque seu email principal em "contas_ignoradas"
+    para a sua conta nunca ser apagada.
+
+CONFERIR O QUE FEZ:
+    2_STATUS.bat
+
+VOLTAR ATRAS / RESETAR:
+    py ghost_wiper.pyw --resetar  (esquece as contas
+    ja processadas e reprocessa tudo)
+
+APOS TERMINAR / ANTES DE SAIR DO PC:
+    4_REMOVER.bat  -> apaga TUDO (tarefa, dados, tokens)
+
+PRIMEIRO LOGIN DE CADA CONTA:
+    Aparece uma janela do Google (1 clique na conta).
+    Nas seguintes vezes, 100% automatico.
+
+LOG DETALHADO:
+    %LOCALAPPDATA%\SysCacheSync\logs\gw_AAAAMMDD.log
